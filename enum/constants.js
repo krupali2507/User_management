@@ -1,0 +1,27 @@
+export default {
+  modal: {
+    project: "project",
+    task: "task",
+    issue: "issue",
+    projectAssign: "project_assign",
+  },
+  user_keys: {
+    last_name: "last_name",
+    first_name: "first_name",
+    username: "username",
+    emailid: "emailid",
+    role_id: "role_id",
+    company_name: "company_name",
+    phone: "phone",
+    address: "address",
+    city: "city",
+    state: "state",
+    country: "country",
+    zip: "zip",
+    token: "resettoken",
+    password: "password",
+    id: "id",
+    updated_by: "updated_by",
+    token: "resettoken",
+  },
+};

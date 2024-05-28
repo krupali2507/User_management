@@ -1,0 +1,50 @@
+export default {
+  BASE_API_URL: "/api/v1/",
+
+  USER: {
+    BASE_URL: "/api/v1/users",
+    SIGNUP: "/register",
+    LOGIN: "/login",
+    CHANGE_PASSWORD: "/changePassword",
+    FORGET_PASSWORD: "/forgetPassword",
+    CREATE_USER: "/addUpdateUser",
+    GET_USER: "/getAllUser",
+    DELETE_USER: "/deleteUser",
+  },
+  ROLE: {
+    BASE_URL: "/api/v1/role",
+    ADD_ROLE: "/addUpdateRole",
+    GET_ROLE: "/getRole",
+    DELETE_ROLE: "/deleteRole",
+  },
+  PROJECT: {
+    BASE_URL: "/api/v1/project",
+    CREATE_PROJECT: "/addUpdateProject",
+    GET_PROJECT: "/getAllProjects",
+    DELETE_PROJECT: "/deleteProject",
+    ASSIGN_TEAM_TO_PROJECT: "/assignTeamToProject",
+    UPDATE_HOUR: "/updateHour",
+  },
+  TASK: {
+    BASE_URL: "/api/v1/task",
+    CREATE_TASK: "/addUpdateTask",
+    GET_TASK: "/getAllTasks",
+    DELETE_TASK: "/deleteTask",
+    ASSIGN_TEAM_TO_TASK: "/assignTeamToTask",
+    UPDATE_HOUR: "/updateHour",
+  },
+  ISSUE: {
+    BASE_URL: "/api/v1/issue",
+    CREATE_ISSUE: "/addUpdateIssue",
+    GET_ISSUE: "/getAllIssues",
+    DELETE_ISSUE: "/deleteIssue",
+    ASSIGN_TEAM_TO_ISSUE: "/assignTeamToIssue",
+    UPDATE_HOUR: "/updateHour",
+  },
+  MEDIA: {
+    BASE_URL: "/api/v1/media",
+    POST_MEDIA: "/postMedia",
+    GET_MEDIA: "/getMedia",
+    REMOVE_MEDIA: "/removeMedia",
+  },
+};
